@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import ProductList from './Components/Added Product/Productlist';
+import Input from './Components/Inputfrom/Input'
 
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <Fragment>
+      <Input/>
+      <ProductList />
+    </Fragment>
   );
 }
 
